@@ -51,6 +51,12 @@ public class C_PlayerControler : MonoBehaviour
             this.gameObject.transform.Translate(Vector3.left * speed * Time.deltaTime);
             this.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            this.gameObject.transform.Translate(Vector3.up * speed * Time.deltaTime);
+
+        }
     }
 
 

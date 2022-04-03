@@ -6,6 +6,8 @@ namespace inputmenrger
 {
     public class C_inputMenager : MonoBehaviour
     {
+
+
         void Update()
         {
 
@@ -45,5 +47,18 @@ namespace inputmenrger
                 C_PlayerControler.instance.moveBackward = false;
             }
         }
+
+        void OnTriggerEnter(Collider other)
+        {
+            print("test1");
+            if (other.gameObject.tag == "boat")
+            {
+                print("test2");
+
+            }
+
+        }
     }
 }
+
+

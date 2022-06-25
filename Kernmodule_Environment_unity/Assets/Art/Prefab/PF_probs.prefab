@@ -8550,6 +8550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree
       objectReference: {fileID: 0}
+    - target: {fileID: 8073824914782879649, guid: 5e3b0fae299193b49800f6e869cda02e, type: 3}
+      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
+      value: 0.49527428
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3b0fae299193b49800f6e869cda02e, type: 3}
 --- !u!4 &5671445256490454033 stripped

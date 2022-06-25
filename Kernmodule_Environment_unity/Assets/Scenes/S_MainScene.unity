@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 2158.1904, g: 2260.0254, b: 3292.6172, a: 1}
+  m_IndirectSpecularColor: {r: 2159.7031, g: 2263.1055, b: 3300.4922, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2296,12 +2296,10 @@ LODGroup:
   m_LODs:
   - screenRelativeHeight: 0.45423204
     fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
+    renderers: []
   - screenRelativeHeight: 0.2168296
     fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 0}
+    renderers: []
   - screenRelativeHeight: 0.037549213
     fadeTransitionWidth: 0
     renderers: []
